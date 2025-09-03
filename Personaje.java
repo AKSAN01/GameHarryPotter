@@ -1,4 +1,3 @@
-
 public abstract class Personaje {
     protected String nombre;
     protected Hechizo hechizoHabil; 
@@ -7,7 +6,7 @@ public abstract class Personaje {
         this.nombre = nombre;
     }
 
-}
+
     public void lanzarHechizo() {
         System.out.print(nombre + " lanza: ");
         hechizoHabil.ejecutar();
